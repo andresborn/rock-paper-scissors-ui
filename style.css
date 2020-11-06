@@ -1,15 +1,15 @@
 :root {
-  --seagreen: #003844;
-  --green: #006c67;
-  --pink: #f194b4;
+  --charcoal: #071e22;
+  --blush: #fceff9;
+  --lightblue: #2191fb;
 }
 
 body {
   margin: 0;
   padding: 0;
-  color: var(--pink);
+  color: var(--charcoal);
   font-family: "Courier New", Courier, monospace;
-  background-color: var(--green);
+  background-color: var(--lightblue);
 }
 
 * {
@@ -17,8 +17,23 @@ body {
 }
 
 h1 {
-  font-size: 54px;
+  font-size: 64px;
   text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  font-size: 34px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--blush);
+}
+
+h3 {
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--blush);
 }
 
 .container {
